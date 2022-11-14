@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="http://localhost/PayU/PHP_Kit/SHA512/action_page.php" method="POST">
+  <label for="fname">Key:</label><br>
+  <input type="text" id="key" name="key" value=""><br>
+
+  <label for="fname">Transaction ID:</label><br>
+  <input type="text" id="txnid" name="txnid" value=""><br>
+
+  <label for="fname">Amount:</label><br>
+  <input type="text" id="amount" name="amount" value=""><br>
+
+  <label for="fname">Productinfo:</label><br>
+  <input type="text" id="productinfo" name="productinfo" value=""><br>
+
+  <label for="fname">Firstname:</label><br>
+  <input type="text" id="firstname" name="firstname" value=""><br>
+
+  <label for="fname">Email:</label><br>
+  <input type="text" id="email" name="email" value=""><br>
+
+  <label for="lname">Salt:</label><br>
+  <input type="text" id="salt" name="salt" value=""><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
+
